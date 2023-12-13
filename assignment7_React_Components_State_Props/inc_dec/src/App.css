@@ -1,0 +1,30 @@
+* {
+  background-color: wheat;
+}
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+}
+button {
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 35px;
+  width: 70px;
+}
+#inc {
+  background-color: orange;
+  color: black;
+}
+#reset {
+  background-color: aquamarine;
+  color: black;
+}
+#dec {
+  background-color: rgba(255, 0, 0, 0.678);
+  color: black;
+}
+p {
+  margin-left: 30%;
+}
