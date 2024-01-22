@@ -6,7 +6,7 @@ export default function Categories() {
       <div className="featured-categories">
         <h2>
           Featured Categories
-          <a href="">cack & Milk</a>
+          <a href="">cake & Milk</a>
           <a href="">Coffee & Tea</a>
           <a href="">Pet Foods</a>
           <a href="">Vegetables</a>
