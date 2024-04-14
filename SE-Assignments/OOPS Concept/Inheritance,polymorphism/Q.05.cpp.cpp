@@ -6,12 +6,13 @@ obtained in the test and roll number of students. (Multilevel Inheritance)*/
 
 #include<iostream>
 using namespace std;
+//created class
 class Students {
     public:
         int roll_number;
 
 };
-
+//using multilevel inheritance
 class Test : public Students {
     public:
         int subject1_marks;
@@ -24,6 +25,7 @@ class Result : public Test {
         int total_marks;
 
 };
+//getting results using Multilevel Inheritance
 int main()
 {
 	Result obj;
