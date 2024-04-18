@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="click here">click</button>
+    <div id="one"></div>
+    <script>
+        var Button = document.getElementById("click here");
+        var container = document.getElementById("one");
+        function addParagraph() {
+            // Create a new paragraph element
+            var paragraph = document.createElement("p");
+
+            // Create some text content for the paragraph
+            var text = document.createTextNode("This is a new paragraph!");
+
+            // Append the text to the paragraph element
+            paragraph.appendChild(text);
+
+            // Append the paragraph element to the container
+            container.appendChild(paragraph);
+        }
+
+        // Add a click event listener to the button
+        Button.addEventListener("click", addParagraph);
+    </script>
+</body>
+</html>
